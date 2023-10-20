@@ -1,0 +1,33 @@
+/*couleur*/
+$bleu: blue;
+$roug: red;
+$jaune: yellow;
+
+//test te taille
+$width: 300px;
+$widthtexte: 30%;
+
+
+body{
+  background-color: $bleu;
+}
+
+p{
+  color: $roug;
+  max-height: $width;
+  min-width: $width + 25;
+  display: block;
+}
+
+//inbrication
+div{
+  display: block;
+  background-color: $jaune;
+  width: $width + 25;
+  height: $width + 20;
+  text-align: center;
+
+  p{
+    color: $bleu;
+  }
+}
